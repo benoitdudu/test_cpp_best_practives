@@ -1,7 +1,7 @@
 include(CheckCXXCompilerFlag)
 
 macro(
-  myproject_enable_hardening
+  test_cpp_best_practives_enable_hardening
   target
   global
   ubsan_minimal_runtime)
